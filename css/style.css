@@ -1,0 +1,35 @@
+@font-face {
+
+    font-family: "HARD_ROCK";
+    src: url("../fonts/HARD_ROCK.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "RocknRoll";
+    src: url("../fonts/rocknroll_typo_crazy.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TheDark";
+    src: url("../fonts/TheDark.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+nav {
+    font-family: "RocknRoll", Arial, sans-serif;
+}
+
+
+
+
+
+body {
+
+    background-color: rgb(0, 0, 0);
+    color: rgb(134, 131, 125);
+}
