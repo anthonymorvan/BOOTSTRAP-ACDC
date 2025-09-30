@@ -28,8 +28,13 @@ nav {
 
 
 
+
+
 body {
 
-    background-color: rgb(0, 0, 0);
-    color: rgb(134, 131, 125);
+    left: 0;
+    right: 0;
+    height: 100%;
+    z-index: -1;
+    background: repeating-linear-gradient(-65deg, #000 0 480px, #ea1f1f 480px 960px);
 }
