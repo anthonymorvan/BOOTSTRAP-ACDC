@@ -398,39 +398,44 @@
 
 
 
-        <form id="contact" class="container ">
-            <div class="row g-3 justify-content-center  ">
+        <form id="contact" action="http://bienvu.net/script.php" method="get" class="container ">
+            <div class="row  justify-content-center  ">
                 <div class="col-3">
-                    <input type="text" class="form-control" placeholder="Nom" aria-label="First name">
+                    <label for="validationCustom01" class="form-label"></label>
+                    <input type="text" class="form-control" placeholder="Nom" id="validationCustom01" value="Nom"
+                        required>
                 </div>
                 <div class="col-3 justify-content-center ">
-                    <input type="text" class="form-control" placeholder="Prénom" aria-label="Last name">
-                </div>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-6">
                     <label for="exampleFormControlInput1" class="form-label"></label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                    <input type="text" class="form-control" placeholder="Prénom" id="validationCustom02" value="prénom"
+                        required>
                 </div>
-            </div>
 
-            <div class="row justify-content-center">
-                <div class="col-6">
-                    <label for="exampleFormControlTextarea1" class="form-label"></label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                        placeholder="Votre message"></textarea>
+                <div class="row justify-content-center">
+                    <div class="col-6">
+                        <label for="exampleFormControlInput1" class="form-label"></label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email"
+                            required>
+                    </div>
                 </div>
-            </div>
-            <div class="row justify-content-center g-1 m-3">
-                <div class="col-auto">
-                    <button type="submit" class="btn btn-danger fw-bold">Envoyer</button>
-                </div>
-                <div class="col-auto">
-                    <button type="button" class="btn btn-danger fw-bold">Annuler</button>
-                </div>
-            </div>
 
+                <div class="row justify-content-center">
+
+                    <div class="col-6">
+                        <label for="exampleFormControlTextarea1" class="form-label"></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"
+                            placeholder="Votre message" required></textarea>
+                    </div>
+                </div>
+                <div class="row justify-content-center g-1 m-3">
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-danger fw-bold">Envoyer</button>
+                    </div>
+                    <div class="col-auto">
+                        <button type="button" class="btn btn-danger fw-bold">Annuler</button>
+                    </div>
+                </div>
+            </div>
 
 
 
